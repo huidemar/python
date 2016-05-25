@@ -8,3 +8,15 @@ for i in range(10):
 #    c=a+b
 #    a=b
 #    b=c
+anterior, atual =0, 1
+while atual<10:
+     print atual
+     anterior, atual = atual, anterior+atual
+
+
+#anterior, atual =0, 1
+#while atual<10:
+#     print atual
+#     soma = anterior+atual 
+#     anterior = atual
+#     atual = soma
